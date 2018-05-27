@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="EBook阅读器如下："
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/txt_reader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="txt阅读器"
+        android:textAllCaps="false"
+        android:textColor="#ff0000" />
+
+    <Button
+        android:id="@+id/pdf_reader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="pdf阅读器"
+        android:textAllCaps="false"
+        android:textColor="#ff0000" />
+
+    <Button
+        android:id="@+id/ebook_flip_effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="电子书翻页效果"
+        android:textAllCaps="false"
+        android:textColor="#ff0000" />
+
+    <Button
+        android:id="@+id/fb_reader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="fbReader阅读器"
+        android:textAllCaps="false"
+        android:textColor="#ff0000" />
+
+
+</LinearLayout>

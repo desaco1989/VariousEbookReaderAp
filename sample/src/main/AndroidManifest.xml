@@ -10,11 +10,15 @@
 		<activity
 			android:name="PDFViewActivity_"
 			android:label="@string/app_name" >
+		</activity>
+
+		<activity android:name="com.github.barteksc.sample.IndexActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+
 	</application>
 
 </manifest>
